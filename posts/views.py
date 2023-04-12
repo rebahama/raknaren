@@ -16,6 +16,7 @@ class PostList(generics.ListCreateAPIView):
     filterset_fields = [
         'calculate__price',
         'owner__profile'
+        
     ]
 
     search_fields = [
